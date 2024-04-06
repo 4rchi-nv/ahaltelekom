@@ -1,0 +1,39 @@
+{
+  "name": "ahaltelekom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "'Archie <'agajanov0arslan@gmail.com'>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.5.5",
+    "@popperjs/core": "^2.11.8",
+    "@webpack-cli/serve": "^2.0.5",
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^7.0.0-beta.3",
+    "bootstrap": "^5.3.3",
+    "css-loader": "^3.1.0",
+    "file-loader": "^4.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "style-loader": "^0.23.1",
+    "swiper": "^11.1.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  },
+  "repository": "https://github.com/4rchi-nv/ahaltelekom.git"
+}

@@ -14,7 +14,7 @@ body {
 
 a {
   color: var(--main__col);
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 a:hover {
