@@ -27,6 +27,9 @@ function renderNews() {
     news
         .then(res => res.json())
         .then(items => {
+            if (!items.length) {
+              return;
+            }
             let fragment = '';
             // for(let i = 0; i < 3; i++) {
             //     const domItem = newsTemplate(items[i]);
