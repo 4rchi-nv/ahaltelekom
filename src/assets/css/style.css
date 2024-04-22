@@ -698,16 +698,20 @@ section {
 --------------------------------------------------------------*/
 .news .member {
   text-align: center;
+  width: 100%;
   margin-bottom: 20px;
   background: var(--light__col);
   border: 1px solid #eef0ef;
+  border-radius: 8px;
 }
 
 .news .member img {
   margin: -1px -1px 30px -1px;
   width: 100%;
-  height: 250px;
+  height: 330px;
   object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .news .member .member-content {

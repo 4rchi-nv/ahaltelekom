@@ -135,6 +135,25 @@
       }
     }
   });
+  new Swiper('.news-slider', {
+    speed: 1000,
+    slidesPerView: 'auto',
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+
+      650: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      788.9: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      }
+    }
+  });
 
   /**
    * Animation on scroll
@@ -147,10 +166,5 @@
       mirror: false
     })
   });
-
-  /**
-   * Initiate Pure Counter 
-   */
-  new PureCounter();
 
 })()
