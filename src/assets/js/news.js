@@ -1,6 +1,7 @@
 //ui
 const newsContainer = document.querySelector('#news .swiper-wrapper');
 const url = "http://localhost:80/";
+const defPhoto = `${url}media/news/defPhoto.png`
 
 async function getNews() {
     return response = await fetch(`${url}api/news`); 
@@ -11,7 +12,7 @@ function newsTemplate(item) {
     <div class="swiper-slide">
               <div class="align-items-stretch">
                 <div class="member">
-                  <img src="${item.image || url+'media/news/defPhoto.png'}" class="img-fluid" alt="">
+                  <img src="${item.image || defPhoto}" class="img-fluid" alt="">
                   <div class="member-content">
                     <h4>${item.name}</h4>
                   </div>
